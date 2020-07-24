@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Hello-World') {
+    stage('Run Application') {
       steps {
-        echo 'Jenkins building...'
+        sh 'gradle bootRun'
       }
     }
 
