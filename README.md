@@ -1,2 +1,2 @@
 # blog-backend
-Backend for my blog
+This is the backend for my blog.
